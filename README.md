@@ -34,3 +34,38 @@ Each function's worst-case time complexity is documented both in the code and in
 
 ## Output
 No user output is required.
+
+
+## Running the AVL-Based List ADT
+### 1. Prerequisites
+Ensure you have Python installed. If not, download and install it from the official Python website.
+
+### 2. Clone the Repository
+```
+git clone [YOUR_REPOSITORY_URL]
+cd [YOUR_REPOSITORY_DIRECTORY]
+```
+### 3. Running the Code
+If you want to see the AVL-Based List ADT in action, you can run the provided sample program:
+```
+python avl_list.py
+```
+This will execute the file and any sample operations or tests included in avl_list.py.
+
+## Using the AVL-Based List ADT in Your Own Projects
+You can import the AVL list and use its functions as follows:
+```
+from avl_list import AVLList
+
+# Create a new AVL list
+my_list = AVLList()
+
+# Add some elements
+my_list.insert(10)
+my_list.insert(20)
+
+# Print the list
+print(my_list)
+
+# ... and so on for other operations!
+```
